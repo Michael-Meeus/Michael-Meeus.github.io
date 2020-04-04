@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../img/top-view-map.jpg");
+  
+    /* Full height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+nav {
+    background: linear-gradient(-45deg, #25a8ff, #239cff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-brand span {
+    width: 20px; 
+    display: inline-block;
+}
+
+.bottom-knob {
+    display: inline-block;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+background: #212121;
+box-shadow:  10px 10px 20px #151515, 
+             -10px -10px 20px #2d2d2d;
+}
+
+.bottom-knob a {
+    margin: 28px;
+}
