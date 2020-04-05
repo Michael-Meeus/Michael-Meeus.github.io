@@ -19,7 +19,19 @@ body, html {
 nav {
     background: linear-gradient(-45deg, #25a8ff, #239cff);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 3s ease infinite;
+}
+
+#small-text {
+    font-size: small;
+}
+
+#smallish-text {
+    font-size: smaller;
+}
+
+.clean-hero div.text{
+    margin: 80px;
 }
 
 @keyframes gradient {
