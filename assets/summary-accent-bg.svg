@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="219px" height="264px" viewBox="0 0 219 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.63562449%" y1="-22.2626657%" x2="89.0420541%" y2="118.536932%" id="linearGradient-1">
+            <stop stop-color="#622B7A" offset="0%"/>
+            <stop stop-color="#9A3368" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g id="Infographic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Report" transform="translate(-611.000000, -293.000000)" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(572.000000, 292.000000)">
+                <g id="Group-3" transform="translate(39.000000, 1.000000)">
+                    <path d="M0,0 L0,154.102395 C0,214.794939 49.0247425,264 109.5,264 L109.5,264 C169.975257,264 219,214.794939 219,154.102395 L219,154.102395 L219,0 L0,0 Z" id="Fill-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
