@@ -156,3 +156,7 @@ box-shadow:  10px 10px 20px #151515,
     width: 300px;
     margin-bottom: 20px;
 }
+
+.center-text {
+    text-align: center;
+}
