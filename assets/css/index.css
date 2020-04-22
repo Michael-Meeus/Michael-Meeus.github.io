@@ -34,10 +34,6 @@ nav {
     margin: 80px;
 }
 
-.clean-hero {
-    height: calc(100vh - 80px);
-}
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -91,8 +87,24 @@ box-shadow:  10px 10px 20px #151515,
     display: inline-block;
 }
 
-.item-pad {
-    margin-right: 4em;
+@media only screen and (min-width: 600px) {
+    .summary-item.svelte-xldb6f {
+    margin: 2em;
+    }
+
+    .clean-hero {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cactus {
+        width: 15%;
+    }
+
+    .clean-hero {
+        height: calc(100vh - 62px);
+    }
 }
 
 .summary-accent-bg-triangle-left.svelte-xldb6f {
