@@ -11,7 +11,7 @@ window.onscroll = function () {
         }
     } else {
         if (isMobileDevice()) {
-            navbar.style.top = "-35px";
+            navbar.style.top = "-52px";
         } else {
             navbar.style.top = "-60px";
         }
@@ -26,7 +26,7 @@ navbar.addEventListener("mouseover", function () {
 navbar.addEventListener("mouseout", function () {
     if (window.pageYOffset !== 0) {
         if (isMobileDevice()) {
-            navbar.style.top = "-35px";
+            navbar.style.top = "-52px";
         } else {
             navbar.style.top = "-60px";
         }
