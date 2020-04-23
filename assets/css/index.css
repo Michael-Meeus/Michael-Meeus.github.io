@@ -136,11 +136,12 @@ box-shadow:  10px 10px 20px #151515,
     }
 
     #cactus {
-        left: calc(100vw - 50px);
+        left: -3px;
       }
   
     #cactus2 {
-        right: calc(100vw - 50px);
+        right: -8px;
+        width: 15%;
       }
   
     #cactus3 {
