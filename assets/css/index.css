@@ -55,6 +55,7 @@ nav {
 .navbar-brand span {
     width: 20px; 
     display: inline-block;
+    padding-bottom: 15px;
 }
 
 .bottom-knob {
@@ -112,7 +113,7 @@ box-shadow:  10px 10px 20px #151515,
         height: calc(100vh - 62px);
     }
 
-    
+
 }
 
 .summary-accent-bg-triangle-left.svelte-xldb6f {
