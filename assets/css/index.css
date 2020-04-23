@@ -28,6 +28,14 @@ nav {
     transition: top 0.3s;
 }
 
+#top-filler {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #212121;
+}
+
 #small-text {
     font-size: small;
 }
@@ -55,7 +63,7 @@ nav {
 .navbar-brand span {
     width: 20px; 
     display: inline-block;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
 .bottom-knob {
