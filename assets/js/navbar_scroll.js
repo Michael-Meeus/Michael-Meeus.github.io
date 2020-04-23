@@ -4,6 +4,11 @@ window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         navbar.style.top = "0";
+        if (isMobileDevice()){
+            navbar.style.backgroundColor = "green";
+        }if (this.isMobileDevice()){
+            navbar.style.backgroundColor = "red";
+        }
     } else {
         if (isMobileDevice()) {
             navbar.style.top = "-40px";
