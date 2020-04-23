@@ -17,10 +17,15 @@ body, html {
     background-size: cover;
   }
 
+.page {
+    background-color: 151515;
+}
+
 nav {
     background: linear-gradient(-45deg, #5fd0ec, #239cff);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+    animation: gradient 20s ease infinite;
+    transition: top 0.3s;
 }
 
 #small-text {
