@@ -152,6 +152,10 @@ box-shadow:  10px 10px 20px #151515,
         height: calc(100vh - 62px);
     }
 
+    #coronawidget {
+      width: 100%;
+    }
+
 
 }
 
