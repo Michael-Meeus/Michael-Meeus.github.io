@@ -44,6 +44,24 @@ nav {
     font-size: smaller;
 }
 
+#cactus {
+    position: fixed;
+    bottom: -2px;
+    left: 2em;
+  }
+
+#cactus2 {
+    position: fixed;
+    bottom: -2px;
+    right: 5em;
+  }
+
+#cactus3 {
+    position: fixed;
+    bottom: -2px;
+    left: 10em;
+  }
+
 .clean-hero div.text{
     margin: 80px;
 }
@@ -116,6 +134,18 @@ box-shadow:  10px 10px 20px #151515,
     .cactus {
         width: 10%;
     }
+
+    #cactus {
+        left: calc(100vw - 50px);
+      }
+  
+    #cactus2 {
+        right: calc(100vw - 50px);
+      }
+  
+    #cactus3 {
+        visibility: hidden;
+      }
 
     .clean-hero {
         height: calc(100vh - 62px);
@@ -250,21 +280,3 @@ box-shadow:  10px 10px 20px #151515,
     justify-content: center;
     font-size: 48px;
   }
-
-  #cactus {
-      position: fixed;
-      bottom: -2px;
-      left: 2em;
-    }
-
-  #cactus2 {
-      position: fixed;
-      bottom: -2px;
-      right: 5em;
-    }
-
-  #cactus3 {
-      position: fixed;
-      bottom: -2px;
-      left: 10em;
-    }
