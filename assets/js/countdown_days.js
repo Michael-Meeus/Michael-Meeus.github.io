@@ -63,7 +63,9 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (timeLeft < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Kyk mooi na jouself, Suid-Afrika.";
+    document.getElementById("base-timer-label").innerHTML = formatTime(
+      0
+    );
   }
 }, 1000);
 
